@@ -98,7 +98,7 @@ code {
 	flex: 0 0 220px;
 	padding: 15px;
 	z-index: 1;
-	background-color: #F0F0F0;
+	background-color: #1f1111;
 	color: #2D2D33;
 }
 
@@ -123,7 +123,7 @@ code {
 }
 
 .sidebar-header {
-	margin-bottom: 50px;
+	/* margin-bottom: 50px; */
 }
 
 .sidebar-nav {
@@ -131,7 +131,7 @@ code {
 }
 
 .nav-title {
-	font-size: 100%;
+	font-size: 130%;
 	font-family: "Noto Sans";
 	text-transform: uppercase;
 	border-bottom: 1px solid gray;
@@ -139,10 +139,11 @@ code {
 }
 
 a.nav-item {
-	font-size: 120%;
-	font-family: "Noto Sans";
-	text-transform: capitalize;
-	color: #aaa;
+	font-size: 100%;
+    font-family: "Noto Sans";
+    text-transform: capitalize;
+    color: #2d2d33;
+    opacity: 0.9;
 }
 
 a.nav-item:hover { color: #777; }

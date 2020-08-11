@@ -25,6 +25,14 @@ layout: default
 
 </div>
 
+  {% for post in site.posts %}
+    <div id="category-tags" class="row category-label">
+      <div class="d-flex flex-wrap mt-3 mb-1 mr-3 col-12 col-lg-11 col-xl-8">
+        <a class="category-tag"><span class="label">{{post.categories}}</span></a>
+      </div>
+    </div>
+  {% endfor %}
+
 {% if site.disqus.comments and page.comments %}
 <div class="row">
   <div class="col-12 col-lg-11 col-xl-8">

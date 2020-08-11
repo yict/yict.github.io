@@ -99,7 +99,7 @@ code {
 	padding: 15px;
 	z-index: 1;
 	background-color: #1f1111;
-	color: #2D2D33;
+	color: #fff;
 }
 
 .sidebar-item {
@@ -114,7 +114,7 @@ code {
 .sidebar-brand > a {
 	font-size: 300%;
 	font-family: 'Gelasio';
-	color: #2D2D33;
+	color: #ffffff;
 }
 
 .lead {
@@ -142,7 +142,7 @@ a.nav-item {
 	font-size: 100%;
     font-family: "Noto Sans";
     text-transform: capitalize;
-    color: #2d2d33;
+    color: #ffffff;
     opacity: 0.9;
 }
 
